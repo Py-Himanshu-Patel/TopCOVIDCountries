@@ -1,5 +1,20 @@
 # TopCOVIDCountries
 
+### Run the Project
+```
+cd "/home/himanshu/Downloads/top_countries/src/main/java/com/covid/top_countries/" && javac Covid19TopCountriesApplication.java && java Covid19TopCountriesApplication
+```
+
+Hit API on port localhost:8080 along with a positive integer (0 to 200) as path parameter.
+```
+http://localhost:8080/getTopCountries/{top-n-countries}  
+```
+
+Main File for project start.
+```
+src/main/java/com/covid/top_countries/Covid19TopCountriesApplication.java
+```
+
 #### Some Key Highlights
 - Not reading entire CSV file but reading line by line processing.
 - This prevent us from dumping all of the data in RAM.
