@@ -15,6 +15,11 @@ Main File for project start.
 src/main/java/com/covid/top_countries/Covid19TopCountriesApplication.java
 ```
 
+CSV Static File
+```
+src/main/resources/static/CovidCasePerCountryPerMonth.csv
+```
+
 #### Some Key Highlights
 - Not reading entire CSV file but reading line by line processing.
 - This prevent us from dumping all of the data in RAM.
